@@ -1,0 +1,42 @@
+.main_div{
+   background-color: rgb(157, 157, 212);
+   height: 97vh;
+   margin: 0px;
+   display: flex;
+   justify-content: space-around;
+}
+.center_div{
+   background-color: azure;
+   border-radius: 15px;
+   width: 25%;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   box-shadow: 10px  10px 20px ;
+}
+.input{
+   border: none;
+   text-align:center;
+   background-color:rgb(101, 101, 133);
+   margin-top: 20px;
+}
+#text{
+   border-bottom: 5px solid rgb(101, 101, 133);
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   margin-left: 5px;
+   font-size: 22px;
+}
+#plus{
+   font-size: 22px;
+   font-weight: 900;
+   color: aliceblue;
+   background-color:rgb(101, 101, 133) ;
+   border-radius: 47%;
+   border: none;
+   margin-left: 4px;
+}
+#plus:hover{
+   cursor: pointer;
+   background-color: rgb(101, 194, 101);
+}
